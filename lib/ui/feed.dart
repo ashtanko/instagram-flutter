@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:instagram_flutter/ui/stories.dart';
 
 class Feed extends StatefulWidget {
   @override
@@ -13,8 +14,8 @@ class _FeedState extends State<Feed> {
 
     var deviceSize = MediaQuery.of(context).size;
 
-    return Container(
-      color: Colors.red,
+    return new SizedBox(
+      child: Stories(), height: 100,
     );
   }
 }

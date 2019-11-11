@@ -1,12 +1,12 @@
 import 'dart:io';
 
 import 'package:flutter/material.dart';
-import 'package:instagram_flutter/account.dart';
-import 'package:instagram_flutter/add.dart';
-import 'package:instagram_flutter/feed.dart';
-import 'package:instagram_flutter/search.dart';
-import 'package:instagram_flutter/tabs.dart';
-import 'package:instagram_flutter/theme.dart';
+import 'package:instagram_flutter/ui/account.dart';
+import 'package:instagram_flutter/ui/add.dart';
+import 'package:instagram_flutter/ui/feed.dart';
+import 'package:instagram_flutter/ui/search.dart';
+import 'package:instagram_flutter/data/tabs.dart';
+import 'package:instagram_flutter/constants/theme.dart';
 
 import 'bottom_bar.dart';
 import 'favorite.dart';

@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:instagram_flutter/tabs.dart';
+import 'package:instagram_flutter/data/tabs.dart';
 
 class BottomBar extends StatelessWidget {
   BottomBar({this.tabIconsList, this.onSelectTab});

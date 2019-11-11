@@ -2,6 +2,7 @@ import 'dart:io';
 
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:instagram_flutter/constants/strings.dart';
 
 import 'home.dart';
 
@@ -26,7 +27,7 @@ class App extends StatelessWidget {
     ));
 
     return new MaterialApp(
-      title: 'Instaflutter',
+      title: Strings.appName,
       debugShowCheckedModeBanner: false,
       theme: new ThemeData(
           primarySwatch: Colors.blue,
