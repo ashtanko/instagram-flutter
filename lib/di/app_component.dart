@@ -1,5 +1,5 @@
 import 'package:inject/inject.dart';
-import 'package:instagram_flutter/ui/main.dart';
+import 'package:instagram_flutter/main.dart';
 
 import 'local_module.dart';
 

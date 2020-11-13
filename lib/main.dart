@@ -4,7 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:instagram_flutter/constants/strings.dart';
 
-import 'home.dart';
+import 'ui/home.dart';
 
 void main() {
   SystemChrome.setPreferredOrientations(

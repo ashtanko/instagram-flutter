@@ -16,6 +16,8 @@ version: 1.0.0+1
 environment:
   sdk: ">=2.1.0 <3.0.0"
 
+androidX: true
+
 dependencies:
   flutter:
     sdk: flutter
@@ -38,7 +40,7 @@ dependencies:
       path: package/inject
 
   # The following adds the shared pref as a dependency in your application
-  shared_preferences: ^0.5.3+4
+  shared_preferences: ^0.5.6+3
 
   # A composable, Future-based library for making HTTP requests.
   http: ^0.12.0+2
